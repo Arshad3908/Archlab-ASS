@@ -1,0 +1,114 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #05a244;
+color: #fff;
+transition: background-color 0.3s;
+font-size: xx-small;
+text-decoration: none;
+border-radius: 8px;
+border: 20px;
+
+}
+.button:hover {
+background-color: #0056b3;
+}
+
+    .banner{
+        width: 100%;
+        height: 70vh;
+        background-image:url(https://y8e5k8q9.rocketcdn.me/wp-content/uploads/2022/01/soluciones-innovadoras.jpg);
+        background-size: cover; 
+        background-position: center;
+    }
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 100px;
+        cursor: pointer;
+    }
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+
+  .side-bar{
+background-color: rgb(185, 249, 185);
+grid-template-columns: 2fr 1fr;
+display: grid;
+}
+
+
+.main-content{
+background-color: rgb(153, 242, 153);
+height: 330px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 335px;
+}
+
+  .navbar ul li a {
+   text-decoration:none;
+  color: rgb(7, 7, 7);
+   text-transform: uppercase;
+   font-size: x-small;
+ }
+    .navbar ul li ::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #05f555;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    transition: background-color 0.3s;
+    }
+ .navbar ul li :hover:after{
+  width: 100%;
+  }
+  .navbar ul li :hover{
+    color: #06f937;
+  }
+  .content{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgb(6, 6, 6);
+}
+.content h2{
+
+margin-bottom: 20px;
+margin-top: 10px;
+text-align: left;
+margin-left: 200px;
+}
+
+.content p {
+text-align: left;
+margin-left: 200px;
+margin-bottom: 20px;
+margin-top: 10px;
+display: flex;
+color: rgb(46, 45, 45);
+font-size:small;
+}
